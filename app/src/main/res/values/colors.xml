@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorUnderline">#ced2d9</color>
+    <color name="colorFont">#11141a</color>
+    <color name="colorDescription">#909090</color>
+    <color name="colorAppRed">#ff2869</color>
+    <color name="colorIndicator">#f2f4f4</color>
+<color name="colorRed">#ff0411</color>
+    <color name="colorRed1">#ff2869</color>
+    <color name="colorBackground">#23D8AD</color>
+    <color name="white">#FFFFFF</color>
+<color name="colorTextviewStroke">#ca35af</color>
+    <color name="colorSoftGray">#ebebeb</color>
+    <color name="checkNameColor">#3d3e40</color>
+    <color name="checkDateColor">#9da0a6</color>
+</resources>

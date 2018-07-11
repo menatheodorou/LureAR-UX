@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lurear.setup.LARSetPreferencesActivity">
+    <LinearLayout
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <include
+                android:id="@+id/fragment_interest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/fragment_interest" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <include
+                android:id="@+id/fragment_selectage_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/fragment_selectage_group" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <include
+                android:id="@+id/fragment_selectage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/fragment_choosedistance" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:gravity="center_horizontal|center_vertical"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_save_lurenearby"
+                android:adjustViewBounds="true"
+                android:id="@+id/btSave"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kkc.lurear.LARSideMenuActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/img_bg_side"
+        android:id="@+id/imgSideBg" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1.1"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="bottom|right"
+                android:layout_marginRight="@dimen/common_padding_medium1"
+                >
+                <RelativeLayout
+                    android:layout_width="@dimen/common_padding_extra_large4"
+                    android:layout_height="@dimen/common_padding_large1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/img_notifier"
+                        />
+                    <LinearLayout
+                        android:layout_width="@dimen/common_padding_medium1"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/common_padding_medium">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/ic_red_badge" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="@dimen/common_padding_medium1"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/common_padding_medium">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:text="4" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="@dimen/common_padding_extra_large5"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/common_padding_large1">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/common_padding_medium"
+                            android:text="Notifications" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="0.9"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/common_padding_large2">
+
+            <TextView
+                android:id="@+id/btHomeMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Home"                
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_large2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/common_padding_large2">
+            <TextView
+                android:id="@+id/btEarlierDates"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Earlier Dates"
+                android:textSize="@dimen/font_large2"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/common_padding_large2">
+            <TextView
+                android:id="@+id/btCheckInOut"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Check In/Out"
+                android:textSize="@dimen/font_large2"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/common_padding_large2">
+            <TextView
+                android:id="@+id/btGeoFences"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Geo Fences"
+                android:textSize="@dimen/font_large2"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/common_padding_large2">
+            <TextView
+                android:id="@+id/btPowerShop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Power Shop"
+                android:textSize="@dimen/font_large2"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/common_padding_large2">
+            <TextView
+                android:id="@+id/btNoBroadcast"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No Broadcast"
+                android:textSize="@dimen/font_large2"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/common_padding_large2">
+            <TextView
+                android:id="@+id/btLureNearby"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lure Nearby"
+                android:textSize="@dimen/font_large2"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/common_padding_large2">
+            <ImageView
+                android:layout_width="@dimen/common_padding_large4"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_person"
+                android:id="@+id/btHomeProfile"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/common_padding_large3">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Roger Williams"
+                    android:textSize="@dimen/font_medium3"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="roger.will@email"
+                    android:textSize="@dimen/font_medium1"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

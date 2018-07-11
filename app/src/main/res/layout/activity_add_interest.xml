@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:paddingLeft="@dimen/common_padding_medium"
+    android:paddingRight="@dimen/common_padding_medium">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/round">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/addInterestItemRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_padding_small2"
+        android:layout_marginBottom="@dimen/common_padding_small2"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round"
+            android:textSize="@dimen/font_large"
+            android:text="Add Interests"
+            android:textColor="@color/colorRed1"
+            android:padding="@dimen/common_padding_medium"
+            android:id="@+id/btAddInterests" />
+    </LinearLayout>
+</LinearLayout>

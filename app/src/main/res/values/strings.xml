@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">LureAR</string>
+    <!-- Splash -->
+    <string name="splash">Copyright 2017, LureAR App. All Rights Reserved.</string>
+    <string name="onboard2_title">Map View</string>
+    <string name="onboard3_title">Power Ups</string>
+    <string name="onboard3_undertitle">Zip Zap Zoom</string>
+    <string name="onboard2_undertitle">Find Your Date</string>
+    <string name="onboard2_description">Neque porro quisquam est qui dolorem\n ipsum quia dolor sit amet, consectetur,\n adipisci velit...</string>
+    <!-- SignIn & SignUp -->
+    <string name="signin_continue">Sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="email_hint">enter_email@example.com</string>
+    <string name="password">Password</string>
+    <string name="password_hint">********</string>
+    <string name="sign_in_with_social">Sign in with social</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="signup">Sign up</string>
+
+    <string name="sign_up_to_explore">Sign up to explore</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_with_social">Sign up with social</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="signin">Sign in</string>
+    <!--Add profile picture-->
+    <string name="profile_picture">Profile Picture</string>
+    <string name="add_picture">Add Profile Picture</string>
+    <string name="add_picture_description">First take your facial profile photo</string>
+    <string name="save">Save</string>
+    <string name="okay">Okay</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="add_username">Add Username</string>
+    <string name="select_age">Select Age</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="select_interests">Select Interests</string>
+    <string name="add_interests">Add Interests</string>
+    <string name="interest_in">Interested In</string>
+    <string name="select_age_group">Select Age Group</string>
+    <string name="choose_distance">Choose Distance (Radius)</string>
+    <string name="years">Years</string>
+    <string name="age_min">18</string>
+    <string name="age_max">100</string>
+    <string name="metres_min">50</string>
+    <string name="metres_max">500</string>
+    <string name="metres">mtrs</string>
+    <string name="soccer">Soccer</string>
+    <string name="gymming">Gymming</string>
+    <string name="trying_new_things">Trying New Things</string>
+    <string name="foodie">Foodie</string>
+    <string name="basketball">BasketBall</string>
+    <string name="long_drives">Long Drives</string>
+    <string name="partying">Partying</string>
+    <string name="night_outs">Night_Outs</string>
+    <string name="trekking">Trekking</string>
+    <string name="swimming">Swimming</string>
+    <string name="set_prefer">Set Preferences</string>
+    <string name="emailexample">Jang@hotmail.com</string>
+    <!-- Onboarding -->
+    <string name="skip">Skip</string>
+    <!-- Error message -->
+    <string name="something_went_wrong">Something went wrong!</string>
+
+    <string name="indicator_format">%02d Years</string>
+    <string name="indicator_format_distance">%01d mtrs</string>
+    <string name="select_location">Select Location</string>
+    <string name="add_geo_fence">Add Geo Fence</string>
+    <string name="search_location">Search Location</string>
+    <string name="add_new_geo_fence">Add New Geo Fence</string>
+    <string name="add_title">Add Title</string>
+    <string name="home_geo_fence">Home Geo Fence</string>
+    <string name="select_radius">Select Radius</string>
+    <string name="geo_fence_string1">1 Miles Radius</string>
+    <string name="geo_fence_string2">24 Street, Allabella,NYC,United States</string>
+    <string name="check_in_out">Check In/Out</string>
+    <string name="check_in">Check In</string>
+    <string name="add_check_in">Add Check In</string>
+    <string name="home">Home</string>
+    <string name="lure_nearby">Lure Nearby</string>
+    <string name="confirm">Confirm</string>
+    <string name="check_in_loaction">Check In Location</string>
+    <string name="check_in_state">24 Street, Allable, NYC, United States</string>
+    <string name="add_check_in_state">100 Pts will be debitted after Checking In\n to AR Mode</string>
+    <string name="no_broadcast">No Broadcast</string>
+    <string name="not_broadcast">Not Broadcast</string>
+    <string name="activate_now">Activate Now</string>
+    <string name="no_broadcast_description">You are currently invisible to the World</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="broadcast_now">Broadcasting</string>
+    <string name="broadcast_now_description">Activate Broadcast "Available" Status</string>
+    <string name="power_shop">Power Shop</string>
+    <string name="geo_fence">Geo Fence</string>
+    <string name="profile">Profile</string>
+</resources>
+

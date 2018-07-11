@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/common_padding_medium"
+    android:paddingRight="@dimen/common_padding_medium">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round">
+        <ListView
+            android:id="@+id/confirmItemListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/colorSoftGray"
+            android:dividerHeight="1dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_padding_extra_large3"
+        android:background="@android:color/transparent"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:id="@+id/btempty"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_padding_small1"
+        android:layout_marginBottom="@dimen/common_padding_small1"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Confirm"
+            android:textColor="@color/colorRed1"
+            android:padding="@dimen/common_padding_medium"
+            android:id="@+id/btConfirm" />
+    </LinearLayout>
+</LinearLayout>

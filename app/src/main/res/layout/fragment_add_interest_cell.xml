@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/common_padding_medium"
+    android:layout_marginBottom="@dimen/common_padding_medium"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:layout_marginLeft="@dimen/common_padding_medium2">
+            <TextView
+                android:id="@+id/textViewInterestItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textColor="@color/colorRed1"
+                android:textSize="@dimen/font_large1"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:layout_marginRight="@dimen/common_padding_medium2">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@xml/custom_checkbox"
+                android:clickable="false"
+                android:id="@+id/checkSwim"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

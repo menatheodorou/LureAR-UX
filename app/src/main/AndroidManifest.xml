@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lurear">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.LARApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB5CL204wCoQK9bdWgBQdyTBU9nYZ-TeyM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".app.LARSplashActivity"
+            android:theme="@style/AppThemeFullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup.ui.LARSignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen" />
+        <activity
+            android:name=".signup.ui.LARSignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen" />
+        <activity
+            android:name=".setup.LARAddProfilePictureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".setup.LARSetPreferencesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".onboard.ui.LAROnboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen" />
+        <activity
+            android:name=".setup.LARPersonalInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".home.LARHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen" />
+        <activity
+            android:name=".home.LARHomeSideMenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen" />
+        <activity
+            android:name=".home.LARSelectLocationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeTransparent" />
+        <activity
+            android:name=".home.checkinout.LARCheckInOutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".home.nearby.LARLureNearbyActivity" />
+        <activity
+            android:name=".home.LARAddGeoFenceActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".home.LARAddCheckInActivity"
+            android:theme="@style/AppThemeTransparent" />
+        <activity android:name=".home.geofence.LARGeoFenceActivity" />
+        <activity android:name=".home.broadcast.LARBroadcastActivity" />
+        <activity android:name=".home.broadcast.LARNoBroadcastActivity" />
+        <activity android:name=".home.profile.LARProfileActivity" />
+        <activity
+            android:name=".home.powershop.LARPowerShopActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".home.geofence.LARPlusGeoFenceActivity"
+            android:theme="@style/AppThemeTransparent"></activity>
+    </application>
+
+</manifest>
